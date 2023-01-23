@@ -58,7 +58,8 @@ while q.qsize() > 1:
     nov.desni = y
     q.put(nov)
 
-
+#poberemo zadnjo stvar iz vrste s prednostjo
+#to je naše drevo
 drevo = q.get()
 drevo.narisi()          
 
